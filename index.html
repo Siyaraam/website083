@@ -1,0 +1,464 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Nykaa Fashion – Online Shopping of Clothes &amp; Accessories from Top
+      Designers
+    </title>
+</head>
+<body>
+   
+    <link rel="stylesheet" href="./style.css">
+    <!---Google font-->
+    
+    <!---font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  
+    <header>
+        
+      <div class="header-content">
+        <div class="left">
+          <div>
+            <img src="data:image/png;base64,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" class="logo">
+        </div>
+
+          <nav class="nav">
+            <ul>
+              <li>Women</li>
+              <li>Men</li>
+              <li>Kids</li>
+              <li>Home</li>
+              <li>Tech</li>
+              <li>All Brands</li>
+              <li>More</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="right">
+          <div class="inputSearch">
+            <i class="fa-solid fa-search"></i>
+            <input type="text" placeholder="Search for product, styles, brands">
+          </div>
+
+          <div class="accountLink">
+            <i class="fa-regular fa-user"></i>
+            <p>Account</p>
+          </div>
+
+          <div class="accountLink">
+            <i class="fa-regular fa-heart"></i>
+            <p>Wishlist</p>
+          </div>
+
+          <div class="accountLink">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>Cart</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="subNavigation">
+        <ul>
+            <li>
+                <span>What's New</span>
+                <i class="fa-solid fa-angle-down"></i>
+
+                <div class="sub-navigatin-nav">
+                    <div>
+                        <p>Just In</p>
+                        <div class="sub-navigatin-nav-Image">
+                            <a href="#">
+                                <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/kids/whats_new/just_in/Just-In_5_.jpg">
+                            </a>
+                            <a href="#">
+                                <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/just_in/Recently-Added_1_.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p>New Brands</p>
+                        <div class="sub-navigatin-nav-Image  imageWrap">
+                            <div>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/home/whats_new/top_brands/Smartserve.jpg">
+                                </a>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/Beambika.jpg">
+                                </a>
+                                
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/La-Vie-En-Rose.jpg">
+                                </a>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/koko.jpg">
+                                </a>
+                               
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/clothes.jpg">
+                                </a>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_brands/TIKHIIMLI.jpg">
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <p>New Style form</p>
+                        <div class="sub-navigatin-nav-Image">
+                            <div>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/Biba.jpg">
+                                </a>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/bewakoof.jpg">
+                                </a>
+                            </div>
+                            <div class="">
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/bewakoof.jpg">
+                                </a>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/Maaesa.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/soch.jpg">
+                                </a>
+                                <a href="#">
+                                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/mm_images/women/whats_new/new_styles_from/eleven.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </li>
+
+            <li>
+                <span>Sale</span>
+                <i class="fa-solid fa-angle-down"></i>
+
+                <div class="sub-navigatin-nav">
+                    <div class="col">
+                        <a href="#">Shop All</a>
+                        <a href="#">Indianwear on sale</a>
+                        <a href="#">Westernwear on sale</a>
+                        <a href="#">Big on sale</a>
+                        <a href="#">Footwearon sale</a>
+                        <a href="#">Jewellary on sale</a>
+                        <a href="#">Linerie on sale</a>
+                        <a href="#">Sportswear on sale</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Accessories</a>
+                        <a href="#">Big on Sale</a>
+                        <a href="#">Tech accessories on sale</a>
+                        <a href="#">Sportfitness on sale</a>
+                        <a href="#">Sportswear on sale</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <!--hover effect change navigation-->
+        <ul>
+            <li>
+                <span>Indian Wear</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+            <li>
+                <span>Western Wear</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li>
+                <span>Bags</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+            <li>
+                <span>Jewellary</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li>
+                <span>Footwear</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+            <li>
+                <span>Active&amp;sports</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li>
+                <span>sleep &amp; Lounge</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+            <li>
+                <span>Top Wear</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+
+            <li>
+                <span>Bottom Wear</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+
+            <li>
+                <span>Ethic Wear</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+        </ul>
+
+      </div>
+    </header>
+
+    <div class="categorySection">
+        <img src="https://images-static.nykaa.com/uploads/79f66ebc-b12b-4a7f-a5bc-8fbb65b10e80.jpg?tr=w-150,cm-pad_resize">
+        <img src="https://images-static.nykaa.com/uploads/26b2b833-834f-4a4b-893a-59463256ea9d.jpg?tr=w-150,cm-pad_resize">
+        <img src="https://images-static.nykaa.com/uploads/157bea6c-9cad-420d-92c8-b08d1e689302.jpg?tr=w-150,cm-pad_resize">
+        <img src="https://images-static.nykaa.com/uploads/5e18b875-60ba-4e57-b362-c7cb1d8a5914.jpg?tr=w-150,cm-pad_resize">
+        <img src="https://images-static.nykaa.com/uploads/609e6b8b-56a7-4f20-83c1-93f610721764.jpg?tr=w-150,cm-pad_resize">
+        <img src="https://images-static.nykaa.com/uploads/57e4ce9e-93f0-4032-bf9b-29f153a2ffa5.jpg?tr=w-150,cm-pad_resize">
+        <img src="https://images-static.nykaa.com/uploads/3f606f97-58c2-4544-9466-488e6b9b6a11.jpg?tr=w-150,cm-pad_resize">
+        <img src="https://images-static.nykaa.com/uploads/97fcdf62-27f8-47af-8e0c-019000f51b91.jpg?tr=w-150,cm-pad_resize">
+    
+    </div>
+    <section class="imageFull">
+        <img src="https://images-static.nykaa.com/uploads/7065747a-e9a7-40c2-9626-d0704854535b.jpg?tr=w-1200,cm-pad_resize">
+    </section>
+
+    <section class="slideCategory bgpink">
+      <div class="btn_container">
+            <button class="btn-container-prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="btn-container-next"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+      <div class="slideCategory-Image" id="imageSlideContaienr">
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/5b46a58d-afc4-4ef1-bd3c-9a516363dad4.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/92286a22-a17c-4d8b-a91c-d10c62a6de2e.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/5e04413d-46ef-41fb-8850-ae19135a7c6b.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/8b0bbfad-3c47-41ef-bee1-7948d6141b2c.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/5cda2567-6d59-4393-ab6b-23f287e3f493.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/8ed2d9d2-835a-49fa-b3de-970104dcbafd.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/ab907dba-58e0-4671-a0d8-32f69a1cc4b9.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/8e8d909d-6f8a-4db0-8b48-e60af855b711.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/2601cd3b-dbc0-48eb-8081-ac564220fbc6.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/eeb6a2ec-a73a-4d6b-9d2f-30e8018fac91.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/cb3b3008-6d01-49dd-980f-cee26947b0d4.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+            <a href="#">
+                <img src="https://images-static.nykaa.com/uploads/fe1ca7e7-1961-428a-b05d-1fd5c21159a8.jpg?tr=w-171.42857142857142,cm-pad_resize">
+            </a>
+      </div>
+    </section>
+
+    <div class="imageFull">
+        <img src="https://images-static.nykaa.com/uploads/2c5cfbd6-762d-47ec-8285-9cc718deb395.jpg?tr=w-1200,cm-pad_resize">
+    </div>
+
+
+    <section class="listofProduct_contaienr">
+    <div class="listofProduct">
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/beb9fdeb-e96c-4c55-9138-ba487e5800aa.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 60% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/228bcd54-9099-4998-b4c3-777f77e592f6.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 50% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/5c50557a-cf1e-4500-8b0f-4b9321fce87e.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 70% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/6529686c-e1f9-4c33-98e8-d146493424db.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 50% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/6529686c-e1f9-4c33-98e8-d146493424db.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 70% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/9bf0f694-34b5-4960-9f0a-a6069445532d.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 70% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/1ee17084-9905-4921-ab01-9fb174d727ee.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 50% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/1ee17084-9905-4921-ab01-9fb174d727ee.jpg?tr=w-200,cm-pad_resize">
+        <p>Exciting offers</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/bc749a66-166c-464d-b1c6-71a64d5c64e1.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 50% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/fbc882ec-ed72-4d57-845b-4811136c85de.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 40% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/5474f425-87ad-4ba4-bede-3bdf693f64a3.jpg?tr=w-200,cm-pad_resize">
+        <p>Up to 40% off</p>
+    </a>
+        
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/f33c088a-b73d-4c13-9741-874e91e6a466.jpg?tr=w-200,cm-pad_resize">
+        <p>min 10% off</p>
+    </a>
+        </div>
+</section>
+
+
+<section class="autoCenter">
+    <img src="https://images-static.nykaa.com/uploads/6eeebfc3-33fb-4385-981f-323103350217.gif?tr=w-1200,cm-pad_resize">
+</section>
+
+
+<section class="autoCenter">
+    <img src="https://images-static.nykaa.com/uploads/a6653069-8d0f-470b-9356-ae37a512aff1.jpg?tr=w-1200,cm-pad_resize">
+</section>
+
+<section class="brandTop_container">
+        <div class="brandTopproduct">
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/6e350752-7c60-431b-9474-add3b33395fa.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 65% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/b3b7dd8d-d8ef-450b-9213-d438db1c9fcc.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 50% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/2a249456-6efe-47d8-a1bb-9165ffca1f84.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 50% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/ce00fd6a-093b-4040-bfac-e587b8d140cd.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 80% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/3f1d8ebe-2829-439e-8f86-9db9ba4892bb.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 65% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/00c6e704-18a2-4bcf-8712-83d6244fba05.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 60% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/bb3760af-d016-45a4-b292-53f200a1232e.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 60% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/d5759d1c-294c-49ac-a668-90cf21592de4.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 50% off</p>
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/1acb3b6c-b4d6-43ee-bd75-39d4e85a1365.jpg?tr=w-240,cm-pad_resize">
+        <p>Up to 70% off</p>
+    </a>
+    </div>
+</section>
+
+
+<section class="hardtoresistDeals ">
+    <div class="autoCenter">
+        <img src="https://images-static.nykaa.com/uploads/5d9eefb9-accf-45a4-b6b0-547e10f93386.jpg?tr=w-1200,cm-pad_resize">
+    </div>
+    <div class="hardtoresistDeals_container">
+        <div class="hardToResistDeals_image">
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/5583d54f-3bbd-4e0c-aa80-5a926fc6cedf.jpg?tr=w-1200,cm-pad_resize">
+    </a>
+    
+    <a href="#">
+        <img src="https://images-static.nykaa.com/uploads/9a78c1e3-0cf1-444a-889a-e8ecba0ab5c9.jpg?tr=w-1200,cm-pad_resize">
+    </a>
+    </div>
+    </div>
+</section>
+
+    <script src="script.js" type="module"></script>
+    <script src="./listofProduct.js" type="module"></script>
+    <script src="./hardtoResistDeals.js" type="module"></script>
+    
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
